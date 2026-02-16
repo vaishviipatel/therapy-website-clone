@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🧠 Therapy Website Clone – Project Description
 
-## Getting Started
+The **Therapy Website Clone** is a modern mental health service web application built using **Next.js**. The project replicates a professional therapy or counseling service website with a clean UI, responsive layout, and user-friendly experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### 🎯 Project Objective
+
+The main goal of this project is to:
+
+* Create a responsive and modern therapy service website
+* Practice frontend development using **Next.js (App Router)**
+* Implement reusable components and clean UI structure
+* Simulate a real-world healthcare/mental wellness platform
+
+---
+
+### 🛠️ Technologies Used
+
+* **Next.js** – React framework for server-side rendering and routing
+* **React.js** – Component-based UI development
+* **TypeScript** – Type-safe JavaScript
+* **CSS / Tailwind (if used)** – Styling and layout
+* **next/font (Geist Font)** – Optimized font loading
+
+---
+
+### 🌟 Key Features
+
+1. **Home Page**
+
+   * Hero section with headline and call-to-action
+   * Clean typography and modern design
+   * Professional therapy-themed layout
+
+2. **Services Section**
+
+   * Displays different therapy or counseling services
+   * Structured content presentation
+
+3. **Responsive Design**
+
+   * Mobile-friendly layout
+   * Works across desktop, tablet, and mobile devices
+
+4. **Component-Based Structure**
+
+   * Reusable UI components
+   * Organized folder structure under `/app`
+
+5. **Fast Performance**
+
+   * Optimized using Next.js features
+   * Automatic font optimization with `next/font`
+
+---
+
+### 📂 Project Structure (Overview)
+
+```
+therapy-website-clone/
+│
+├── app/
+│   ├── page.tsx
+│   ├── layout.tsx
+│
+├── public/
+├── package.json
+├── tsconfig.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* `app/page.tsx` → Main homepage
+* `app/layout.tsx` → Root layout for the app
+* `public/` → Static assets (images, icons, etc.)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🚀 How It Works
 
-## Learn More
+* The project runs on a local development server (`localhost:3000`).
+* Next.js handles routing and rendering.
+* Pages automatically update during development.
+* Designed to be easily deployable on **Vercel**.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📌 Project Purpose (Academic / Practice)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project helps in:
 
-## Deploy on Vercel
+* Understanding Next.js App Router
+* Learning frontend UI structuring
+* Practicing real-world website cloning
+* Improving design implementation skills
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
